@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/BootCamps/despliegue-algoritmos/Project/mlruns/794834928823343936/d621f41d80e2436789ba2cc9a0a5ac4a/artifacts
+end_time: 1739883401628
+entry_point_name: ''
+experiment_id: '794834928823343936'
+lifecycle_stage: active
+run_id: d621f41d80e2436789ba2cc9a0a5ac4a
+run_name: rumbling-bear-501
+run_uuid: d621f41d80e2436789ba2cc9a0a5ac4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739883397726
+status: 3
+tags: []
+user_id: arix8

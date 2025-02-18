@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1739821413690
+current_stage: Production
+description: ''
+last_updated_timestamp: 1739821892838
+name: clf_cancer
+run_id: b6222c654ca94e1ba329bc82d6bebda8
+run_link: ''
+source: file:///d:/BootCamps/despliegue-algoritmos/Project/mlruns/993574462648551684/b6222c654ca94e1ba329bc82d6bebda8/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///d:/BootCamps/despliegue-algoritmos/Project/mlruns/993574462648551684/b6222c654ca94e1ba329bc82d6bebda8/artifacts/model
+user_id: null
+version: 1

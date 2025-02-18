@@ -1,0 +1,8 @@
+Pipeline(steps=[('vect',
+                 CountVectorizer(max_df=0.9, max_features=12000, min_df=2,
+                                 ngram_range=(1, 2))),
+                ('scaler', MaxAbsScaler()),
+                ('clf',
+                 SVC(C=0.1,
+                     class_weight={0: 0.96322336398053, 1: 1.0396964389959136},
+                     kernel='linear', probability=True, random_state=42))])

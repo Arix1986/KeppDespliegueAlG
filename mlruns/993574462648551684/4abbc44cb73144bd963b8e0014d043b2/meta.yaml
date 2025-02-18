@@ -1,0 +1,16 @@
+artifact_uri: file:///d:/BootCamps/despliegue-algoritmos/Project/mlruns/993574462648551684/4abbc44cb73144bd963b8e0014d043b2/artifacts
+deleted_time: 1739820734713
+end_time: 1739820537674
+entry_point_name: ''
+experiment_id: '993574462648551684'
+lifecycle_stage: deleted
+run_id: 4abbc44cb73144bd963b8e0014d043b2
+run_name: RandomForess=Cancer
+run_uuid: 4abbc44cb73144bd963b8e0014d043b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739820537649
+status: 3
+tags: []
+user_id: arix8

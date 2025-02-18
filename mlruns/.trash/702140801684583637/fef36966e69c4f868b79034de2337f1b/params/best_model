@@ -1,0 +1,8 @@
+Pipeline(steps=[('vect',
+                 TfidfVectorizer(max_df=0.9, max_features=10000, min_df=3,
+                                 ngram_range=(1, 3))),
+                ('clf',
+                 LogisticRegression(C=0.9,
+                                    class_weight={0: 0.96322336398053,
+                                                  1: 1.0396964389959136},
+                                    random_state=42, solver='liblinear'))])

@@ -1,0 +1,16 @@
+artifact_uri: file:///d:/BootCamps/despliegue-algoritmos/Project/mlruns/702140801684583637/fef36966e69c4f868b79034de2337f1b/artifacts
+deleted_time: 1739844466113
+end_time: 1739842626377
+entry_point_name: ''
+experiment_id: '702140801684583637'
+lifecycle_stage: deleted
+run_id: fef36966e69c4f868b79034de2337f1b
+run_name: judicious-sheep-385
+run_uuid: fef36966e69c4f868b79034de2337f1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739842626348
+status: 4
+tags: []
+user_id: arix8

@@ -1,0 +1,16 @@
+artifact_uri: file:///d:/BootCamps/despliegue-algoritmos/Project/mlruns/702140801684583637/394ee04938ed4e758882d0dc0a201a6c/artifacts
+deleted_time: 1739846706984
+end_time: 1739843620608
+entry_point_name: ''
+experiment_id: '702140801684583637'
+lifecycle_stage: deleted
+run_id: 394ee04938ed4e758882d0dc0a201a6c
+run_name: agreeable-squid-148
+run_uuid: 394ee04938ed4e758882d0dc0a201a6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739843616720
+status: 3
+tags: []
+user_id: arix8

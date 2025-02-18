@@ -1,0 +1,16 @@
+artifact_uri: file:///d:/BootCamps/despliegue-algoritmos/Project/mlruns/702140801684583637/eaabc29ad8cb4d419afae1c5ae64666d/artifacts
+deleted_time: 1739844466113
+end_time: 1739843223084
+entry_point_name: ''
+experiment_id: '702140801684583637'
+lifecycle_stage: deleted
+run_id: eaabc29ad8cb4d419afae1c5ae64666d
+run_name: delicate-bug-338
+run_uuid: eaabc29ad8cb4d419afae1c5ae64666d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739843223056
+status: 4
+tags: []
+user_id: arix8

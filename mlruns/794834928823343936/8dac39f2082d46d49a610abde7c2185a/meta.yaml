@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/BootCamps/despliegue-algoritmos/Project/mlruns/794834928823343936/8dac39f2082d46d49a610abde7c2185a/artifacts
+end_time: 1739848734035
+entry_point_name: ''
+experiment_id: '794834928823343936'
+lifecycle_stage: active
+run_id: 8dac39f2082d46d49a610abde7c2185a
+run_name: worried-sponge-425
+run_uuid: 8dac39f2082d46d49a610abde7c2185a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739848730147
+status: 3
+tags: []
+user_id: arix8

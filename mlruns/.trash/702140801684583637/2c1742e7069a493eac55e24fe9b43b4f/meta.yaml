@@ -1,0 +1,16 @@
+artifact_uri: file:///d:/BootCamps/despliegue-algoritmos/Project/mlruns/702140801684583637/2c1742e7069a493eac55e24fe9b43b4f/artifacts
+deleted_time: 1739846706984
+end_time: 1739843985742
+entry_point_name: ''
+experiment_id: '702140801684583637'
+lifecycle_stage: deleted
+run_id: 2c1742e7069a493eac55e24fe9b43b4f
+run_name: orderly-mule-93
+run_uuid: 2c1742e7069a493eac55e24fe9b43b4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739843983320
+status: 3
+tags: []
+user_id: arix8
