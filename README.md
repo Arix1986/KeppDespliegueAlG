@@ -1,14 +1,14 @@
-### Proyecto de Análisis de Sentimientos MLFlow
+### Análisis de Sentimientos con TF-IDF, CountVectorizer, SVC, LogisticRegression, MLflow, FastAPI y Streamlit en GCP Cloud Run
 
+Este proyecto implementa un **pipeline para el análisis de sentimientos**, utilizando diferentes técnicas de procesamiento de texto y modelos de clasificación. Se emplean herramientas como **MLflow** para el tracking y gestión del modelo.
 
-#### 📌 Resumen
-
-Este proyecto implementa un pipeline para el análisis de sentimientos utilizando diferentes técnicas de procesamiento de texto y modelos de clasificación. El objetivo principal es desarrollar un sistema de clasificación eficiente que no solo entrene y evalúe modelos de `Machine Learning`, sino que también implemente herramientas de `MLFlow` para:
-
-- **Tracking**: Registrar el historial de experimentos con métricas clave como `accuracy`, `precision`, `recall` y `f1-score`.
-- **Registro de Modelos**: Guardar los mejores modelos entrenados para futuras referencias o despliegues.
-- **Gestión de Parámetros**: Almacenar hiperparámetros utilizados en el entrenamiento para facilitar la reproducibilidad.
-- **Comparación de Resultados**: Permitir la evaluación de diferentes configuraciones y modelos a lo largo del tiempo.
+#### 🚀 Tecnologías Utilizadas
+- **TF-IDF y CountVectorizer**: Métodos para la extracción de características de texto, transformando documentos en representaciones numéricas 
+- **Logisticregression y  SVC**: Algoritmos de clasificación; 
+- **FastAPI**: API backend para la predicción de sentimientos.
+- **Streamlit**: Aplicación frontend para visualizar y probar el modelo.
+- **MLflow**: Registro, tracking y gestión de experimentos.
+- **Docker & Docker Compose**: Contenerización y orquestación de servicios.
 
 ##### 📂 Estructura de Archivos
 
@@ -27,27 +27,44 @@ Este proyecto implementa un pipeline para el análisis de sentimientos utilizand
 - **📂 `models/`**  
   Carpeta que contiene los modelos entrenados y guardados como los mejores (`best models`).
 
+- **📂 `fastapi_app/`** 
+  Carpeta que contiene proyecto FastApi
+
+- **📂 `streamlit_app/`** 
+  Carpeta que contiene proyecto Streamlit
+
 - **`requirements.txt`**  
   Archivo con las librerías necesarias para la ejecución del proyecto.
 
-##### 🚀 Cómo Ejecutar el Proyecto
-
-1. Instalar las dependencias:  
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Ver listado de argumentos
-   ```bash  
-    python app_main.py --help
-   ```
 
 
-3. Para entrenar el modelo, ejecutar el siguiente comando: 
- ```bash  
-   python app_main.py --data_path ./datasets/train.csv --use_lema=True --type_model TF-IDF
- ``` 
+##### 🚀 Estructura del Proyecto FastApi
 
-##### 🔍 Algunas Visualizaciones
+**FastAPI (`server.py`)**
+
+Contiene cinco endpoints clave:
+1. **`index`** → Página principal.
+2. **`predict`** → Predicción de sentimientos para un texto.
+3. **`show_df_train`** → Visualización de los primeros registros del dataset de entrenamiento.
+4. **`tokenizar_texto`** → Tokenización de texto con preprocesamiento.
+5. **`predict_with_probs`** → Predicción con probabilidades para obtener un análisis más detallado.
+
+- **`test_docs_gcp.ipynb`**  
+  Contiene las llamadas `https` a los modulos descritos antes.
+
+Incluye un **Dockerfile** que permite desplegarlo en un contenedor.
+
+
+##### 🚀 Estructura del Proyecto Streamlit
+
+**Streamlit (`app.py`)**
+Aplicación de interfaz gráfica simple para interactuar con el modelo de análisis de sentimientos.
+
+Incluye su propio **Dockerfile** para despliegue en contenedor.
+
+
+
+##### 🔍 Visualizaciones MLFlow
 
 1. Consola parámetros app_main.py
 
@@ -78,3 +95,31 @@ Este proyecto implementa un pipeline para el análisis de sentimientos utilizand
 5. Vista resumen parámetro
 
 ![summary](./assets/mlflow2.png)
+
+
+##### 🔍 Visualizaciones FastApi
+
+1. Index
+![index](./assets/index.png)
+
+2. Docs 
+
+![Docs](./assets/alldocs.png)
+
+3. Respuesta dentro de Docs GCP Cloud Run
+
+![predict](./assets/predictdocs.png)
+
+![df](./assets/showdf.png)
+
+![tokenizar](./assets/tokenizar.png)
+
+![probs](./assets/probs.png)
+
+##### 🔍 Visualizaciones Streamlit
+
+![streamlit1](./assets/streamlit1.png)
+
+![streamlit2](./assets/streamlit2.png)
+
+![streamlit3](./assets/streamlit3.png)

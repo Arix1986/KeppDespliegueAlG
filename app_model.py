@@ -103,7 +103,7 @@ class MModel():
             self.mlflow_traking()
             self.evaluate_model()
         if self.best_model:
-            joblib.dump(self.best_model, f"./models/best_model_{best_score:.4f}.pkl")
+            joblib.dump(b_search, f"./models/best_model_{best_score:.4f}.pkl")
             print(f"\n Mejor Accuracy  guardado: {best_score} ")
             
             
